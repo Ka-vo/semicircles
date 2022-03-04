@@ -9,6 +9,7 @@
 
 body {
   overflow-x: hidden;
+  // scroll-behavior: smooth;
 }
 .container {
   width: 1160px;
@@ -17,12 +18,16 @@ body {
 }
 // шапка с навигацией
 header {
+  background-color: #fff;
   position: sticky;
-  bottom: 0;
+  top: 0px;
+  width: 100%;
+  z-index: 5;
+  // max-width: ;
 }
 .navbar {
   display: flex;
-  margin: 22px 0px;
+  padding: 22px 0px;
   justify-content: space-between;
   align-items: center;
   @media (max-width: 767px) {
@@ -50,6 +55,7 @@ header {
     width: 800px;
     a {
       text-decoration: none;
+      color: #868686;
     }
     @media (max-width: 767px) {
       width: 400px;
@@ -60,9 +66,8 @@ header {
     }
   }
   &__element {
-    font-size: 13.5px;
+    font-size: 14px;
     font-family: "Lato";
-    color: #868686;
     text-transform: uppercase;
     line-height: 1.2;
     padding: 10px 14px;

@@ -17,16 +17,19 @@ body {
 }
 
 header {
+  background-color: #fff;
   position: -webkit-sticky;
   position: sticky;
-  bottom: 0;
+  top: 0px;
+  width: 100%;
+  z-index: 5;
 }
 
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 22px 0px;
+  padding: 22px 0px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -78,6 +81,7 @@ header {
 
 .navbar__list a {
   text-decoration: none;
+  color: #868686;
 }
 
 @media (max-width: 767px) {
@@ -98,9 +102,8 @@ header {
 }
 
 .navbar__element {
-  font-size: 13.5px;
+  font-size: 14px;
   font-family: "Lato";
-  color: #868686;
   text-transform: uppercase;
   line-height: 1.2;
   padding: 10px 14px;
