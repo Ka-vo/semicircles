@@ -1,0 +1,64 @@
+.service {
+  margin-top: 200px;
+  // display: flex;
+  h2 {
+    font-size: 30px;
+    font-family: "Myriad Pro";
+    color: rgb(57, 75, 80);
+    text-transform: uppercase;
+    line-height: 1.5;
+    text-align: center;
+  }
+  p {
+    font-size: 16px;
+    font-family: "Myriad Pro";
+    color: rgb(57, 75, 80);
+    text-align: center;
+  }
+  &__benefit {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    width: 100%;
+    max-width: 1160px;
+  }
+  &__columnLeft {
+    width: 50%;
+  }
+  &__columnRight {
+    width: 50%;
+  }
+  &__element {
+    display: flex;
+    justify-content: space-between;
+    max-width: 480px;
+    width: 100%;
+    &:nth-child(2) {
+      margin: 66px 0;
+    }
+    &:nth-child(5) {
+      margin: 66px 0;
+    }
+    h3 {
+      font-size: 16px;
+      font-family: "Lato";
+      color: rgb(57, 75, 80);
+      font-weight: 400;
+      text-transform: uppercase;
+      text-align: left;
+    }
+    p {
+      font-size: 14px;
+      font-family: "OpenSans";
+      color: rgb(123, 123, 123);
+      line-height: 1.7;
+      margin-top: 21px;
+      text-align: left;
+    }
+  }
+  &__text {
+    max-width: 384px;
+    text-align: left;
+  }
+}

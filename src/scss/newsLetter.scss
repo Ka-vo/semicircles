@@ -1,0 +1,109 @@
+.newsLetter {
+  &__text {
+    margin: 153px 0 43px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h3 {
+      font-size: 30px;
+      font-family: "Lato";
+      color: rgb(57, 75, 80);
+      text-transform: uppercase;
+      line-height: 0.733;
+      font-weight: 900;
+    }
+    p {
+      font-size: 15px;
+      font-family: "Lato";
+      color: rgb(57, 75, 80);
+      line-height: 0.733;
+      font-weight: 300;
+      margin-top: 10px;
+    }
+  }
+
+  &__form {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    input {
+      padding-left: 45px;
+      font-size: 15px;
+      font-family: "OpenSans";
+      color: rgb(169, 169, 169);
+    }
+  }
+  &__input {
+    border: 1px solid #cbcbcb;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    height: 46px;
+    &_name {
+      background-image: url("../images/newLetter/formImg-01.png");
+      background-repeat: no-repeat;
+      background-position: 14px;
+      width: 308px;
+    }
+    &_address {
+      background-image: url("../images/newLetter/formImg-02.png");
+      background-repeat: no-repeat;
+      background-position: 14px;
+      width: 386px;
+      margin: 0 11px;
+    }
+  }
+  &__map {
+    background-image: url("../images/newLetter/map.jpg");
+    background-repeat: no-repeat;
+    height: 553px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #e3e7ec;
+    padding: 70px 300px 0 300px;
+  }
+
+  &__circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/newLetter/circle.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position: top 50px;
+    padding-top: 60px;
+    width: 100%;
+    height: 100%;
+  }
+  &__address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    h4 {
+      font-size: 15px;
+      font-family: "Lato";
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 2;
+      font-weight: 700;
+    }
+    p {
+      font-size: 15px;
+      font-family: "Lato";
+      color: rgb(255, 255, 255);
+      line-height: 1.8;
+    }
+    span {
+      font-size: 15px;
+      font-family: "Lato";
+      color: #ca9d46;
+      line-height: 1.8;
+    }
+  }
+  &__img {
+    margin-top: 85px;
+  }
+}

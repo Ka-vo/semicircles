@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/css/reset.css" />
-    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/main.css" />
     <title>Semicirces</title>
   </head>
   <body>
@@ -13,23 +13,23 @@
       <div class="container">
         <nav class="navbar">
           <div class="navbar__img">
-            <img src="./src/images/header/nav.png" alt="" />
+            <a href=""><img src="./src/images/header/nav.png" alt="" /></a>
           </div>
           <div class="navbar__menu">
             <ul class="navbar__list">
-              <a href="#"><li class="navbar__element">home</li></a>
+              <a href="#home"><li class="navbar__element">home</li></a>
               <a href=""><li class="navbar__element">service</li></a>
               <a href=""><li class="navbar__element">about us</li></a>
               <a href=""><li class="navbar__element">pricing table</li></a>
               <a href=""><li class="navbar__element">how it work</li></a>
               <a href=""><li class="navbar__element">happy klients</li></a>
-              <a href=""><li class="navbar__element">contact us</li></a>
+              <a href="#contact"><li class="navbar__element">contact us</li></a>
             </ul>
           </div>
         </nav>
       </div>
     </header>
-    <section class="form">
+    <section id="home" class="form" >
       <div class="container">
         <div class="form__main">
           <div class="form__title">
@@ -42,13 +42,13 @@
             </p>
           </div>
           <div class="form__fields">
-            <form action="#" method="post" enctype="multipart/form-data">
+            <form>
               <div>
                 <input
                   class="form__input form__input_1"
                   type="text"
                   placeholder="Full Name"
-                  name="full name"
+                  name="fullName"
                 />
               </div>
               <div>
@@ -62,7 +62,7 @@
                 <input
                   class="form__input form__input_3"
                   type="tel"
-                  placeholder="Phone number"
+                  placeholder="Phone Number"
                 />
               </div>
               <div><button class="form__button">Request a quote</button></div>
@@ -81,17 +81,12 @@
             alt=""
           />
         </div>
-        <!-- <div class="box"></div> -->
       </div>
     </section>
     <section class="service">
       <div class="container">
-        <div class="service__title">
           <h2>Our Services</h2>
-        </div>
-        <div class="service__subtitle">
           <p>Lorem Ipsum is simply dummy Business industry.</p>
-        </div>
         <div class="service__benefit">
           <div class="service__columnLeft">
             <div class="service__element">
@@ -133,8 +128,6 @@
                 </p>
               </div>
             </div>
-          
-          
           </div>
           <div class="service__columnRight">
             <div class="service__element">
@@ -183,45 +176,35 @@
       </div>
     </div>
     </section>
-    <!-- <section class="bg" >
-        <div class="about">
-          <div class="about__img"><img src="./src/images/about/img.png" alt=""></div>
-        <div class="container">
-          <div class="about__text">
-            <h3>About us</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the ore recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-            <div class="about__button">
-              <a href="">Read more</a>
-            </div>
-          </div>
-        </div>
-        </div>
-    </section> -->
     <section >
+    <section id="section3">
       <div class="about">
-        <div class="about__img"><img src="./src/images/about/img.png" alt=""></div>
+        <div class="about__img">
+          <img src="./src/images/about/img.png" alt="">
+        </div>
         <div class="about__bg">
           <div class="about__text">
             <h3>About us</h3>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the ore recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
-            <div class="about__button">
               <a href="">Read more</a>
-            </div>
           </div>
         </div>
-      
       </div>
   </section>
   <section class="bgr">
     <div class="choos">
       <div class="container">
-        <div class="choos__title"><h3>Сhoos your price</h3></div>
-        <div class="choos__subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, sint.</div>
+        <div class="choos__title">
+          <h3>Сhoos your price</h3>
+        </div>
+        <div class="choos__subtitle">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi, sint.
+        </div>
         <div class="choos__slide">
         <div class="choos__slideCard choos__slideCard_brR">
           <h3>Basic plan</h3>
           <div class="choos__dollar">
-            <p class="choos__icon">$</p>
+            <span class="choos__icon">$</span>
             <p class="choos__number">22</p>
           </div>
           <ul>
@@ -230,7 +213,7 @@
             <li>8 hours support</li>
             <li>custom cloud services</li>
           </ul>
-          <a href="">get started</a>
+          <a href="#">get started</a>
         </div>
         <div class="choos__slideCard choos__slideCard_middle">
           <h3 >Premium plan</h3>
@@ -244,7 +227,7 @@
             <li >100mb storage</li>
             <li >custom cloud services</li>
           </ul>
-          <a  >get started</a>
+          <a  href="#">get started</a>
         </div>
         <div class="choos__slideCard choos__slideCard_brL">
           <h3>Gold plan</h3>
@@ -319,10 +302,14 @@
             <img src="./src/images/klients/01.png" alt="">
           </div>
           <div class="clients__cardText">
-            <p> <img class="clients__pointL" src="./src/images/klients/top.png"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+            <p> 
+              <img class="clients__pointL" src="./src/images/klients/top.png"> 
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
               it to make.
               a type specimen book.
-              , but also the leap into electronic typesetting, remaining essentially unchanged. <img class="clients__pointR" src="./src/images/klients/bottom.png"></p>
+              , but also the leap into electronic typesetting, remaining essentially unchanged. 
+              <img class="clients__pointR" src="./src/images/klients/bottom.png">
+            </p>
             <div class="clients__autor">
               Darwin Michle, <span>Project manager</span>
             </div>
@@ -335,10 +322,14 @@
             <img src="./src/images/klients/02.png" alt="">
           </div>
           <div class="clients__cardText">
-            <p> <img class="clients__pointL" src="./src/images/klients/top.png"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+            <p> 
+              <img class="clients__pointL" src="./src/images/klients/top.png"> 
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
               it to make.
               a type specimen book.
-              , but also the leap into electronic typesetting, remaining essentially unchanged. <img class="clients__pointR" src="./src/images/klients/bottom.png"> </p>
+              , but also the leap into electronic typesetting, remaining essentially unchanged.
+              <img class="clients__pointR" src="./src/images/klients/bottom.png"> 
+            </p>
             <div class="clients__autor">
               Clips Arter, <span>Lipsum director</span>
             </div>
@@ -351,10 +342,14 @@
             <img src="./src/images/klients/03.png" alt="">
           </div>
           <div class="clients__cardText">
-            <p> <img class="clients__pointL" src="./src/images/klients/top.png"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+            <p> 
+              <img class="clients__pointL" src="./src/images/klients/top.png"> 
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
               it to make.
               a type specimen book.
-              , but also the leap into electronic typesetting, remaining essentially unchanged. <img class="clients__pointR" src="./src/images/klients/bottom.png"> </p>
+              , but also the leap into electronic typesetting, remaining essentially unchanged.
+              <img class="clients__pointR" src="./src/images/klients/bottom.png"> 
+            </p>
             <div class="clients__autor">
               Madam Elizabeth, <span>Creative director</span>
             </div>
@@ -367,14 +362,16 @@
             <img src="./src/images/klients/04.png" alt="">
           </div>
           <div class="clients__cardText">
-            <p> <img class="clients__pointL" src="./src/images/klients/top.png"> 
+            <p> 
+              <img class="clients__pointL" src="./src/images/klients/top.png"> 
               Lorem Ipsum is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry standard dummy text ever since the 1500s,
               when an unknown printer took a galley of type and scrambled
               it to make.
               a type specimen book.
               , but also the leap into electronic typesetting, remaining essentially unchanged. 
-              <img class="clients__pointR" src="./src/images/klients/bottom.png"> </p>
+              <img class="clients__pointR" src="./src/images/klients/bottom.png"> 
+            </p>
             <div class="clients__autor">
               Zam Cristafr, <span> manager</span>
             </div>
@@ -384,13 +381,13 @@
     </div>
     </div>
   </section>
-  <section class="newsLetter">
+  <section id="contact" class="newsLetter">
     <div class="container">
       <div class="newsLetter__text">
-        <div class="newsLetter__title"><h3>newsLetter</h3></div>
-        <div class="newsLetter__subtitle"> Lorem ipsum dolor sit amet consectetur adipisicing</div>
+        <h3>newsLetter</h3>
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing </p>
       </div>
-      <form class="newsLetter__form" action="#" method="post" enctype="multipart/form-data">
+      <form class="newsLetter__form" action="#" >
         <div>
           <input
             class="newsLetter__input newsLetter__input_name"

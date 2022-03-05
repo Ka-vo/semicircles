@@ -1,0 +1,110 @@
+.form {
+  background-color: #709dca;
+  display: flex;
+  justify-content: center;
+  input {
+    padding-left: 45px;
+    font-size: 15px;
+    font-family: "OpenSans";
+    color: rgb(169, 169, 169);
+    line-height: 1.2;
+    text-align: left;
+  }
+  &__main {
+    margin-top: 110px;
+    justify-content: space-around;
+    h1 {
+      text-align: center;
+      font-size: 35px;
+      font-family: "Myriad Pro";
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      line-height: 0.686;
+      font-weight: 900;
+    }
+    p {
+      padding: 10px 0 26px 0;
+      font-size: 16px;
+      font-family: "Myriad Pro";
+      color: rgb(255, 255, 255);
+      line-height: 0.686;
+      text-align: center;
+      font-weight: 200;
+    }
+  }
+  &__fields {
+    form {
+      display: flex;
+      justify-content: space-between;
+      width: 1095px;
+      margin-bottom: 67px;
+    }
+  }
+  &__input {
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 241px;
+    height: 46px;
+
+    &_1 {
+      background-image: url("../images/form/formImg-01.png");
+      background-repeat: no-repeat;
+      background-position: 14px;
+    }
+    &_2 {
+      background-image: url("../images/form/formImg-02.png");
+      background-repeat: no-repeat;
+      background-position: 14px;
+    }
+    &_3 {
+      background-image: url("../images/form/formImg-03.png");
+      background-repeat: no-repeat;
+      background-position: 14px;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 1px 1px 5px rgb(75, 75, 75);
+    }
+  }
+  &__button {
+    border: 1px solid rgb(255, 187, 66);
+    border-radius: 2px;
+    background-color: rgb(255, 187, 66);
+    width: 211px;
+    height: 48px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    &:hover {
+      cursor: pointer;
+      background-color: #c49034;
+      border: 1px solid #c49034;
+    }
+  }
+  &__image {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 284px;
+  }
+  &__imageLapTop {
+    position: absolute;
+    &::after {
+      content: "";
+      border: 3px solid red;
+      border-radius: 50%;
+      height: 4px;
+      width: 4px;
+      margin-bottom: 20px;
+    }
+  }
+  &__imagePeople {
+    position: absolute;
+    z-index: 1;
+    top: 18px;
+  }
+}

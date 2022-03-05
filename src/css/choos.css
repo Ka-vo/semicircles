@@ -1,0 +1,234 @@
+.bgr {
+  background-color: #e7edf3;
+  background-size: auto 33.3334%;
+  background-position-x: right 66.66664%;
+}
+
+.choos {
+  padding: 117px 0 138px 0;
+}
+
+.choos__title {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #394b50;
+  text-transform: uppercase;
+  line-height: 0.7;
+  text-align: center;
+  font-weight: 700;
+}
+
+.choos__subtitle {
+  font-size: 16px;
+  font-family: "Lato";
+  color: #394b50;
+  line-height: 0.7;
+  text-align: center;
+  font-weight: 200;
+  margin: 10px 0 79px 0;
+}
+
+.choos__slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.choos__dollar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.choos__icon {
+  font-size: 30px;
+  font-family: "Lato";
+  color: #ffbb42;
+  font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: super;
+  line-height: 0.4;
+  text-align: center;
+}
+
+.choos__icon_blue {
+  font-size: 30px;
+  font-family: "Lato";
+  color: white;
+  text-transform: uppercase;
+  vertical-align: super;
+  line-height: 0.4;
+  text-align: center;
+}
+
+.choos__number {
+  font-size: 60px;
+  font-family: "Lato";
+  color: #ffbb42;
+  font-weight: bold;
+  line-height: 0.4;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.choos__number_blue {
+  font-size: 60px;
+  font-family: "Lato";
+  color: white;
+  text-transform: uppercase;
+  vertical-align: super;
+  line-height: 0.4;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.choos__slideCard {
+  width: 388px;
+  height: 442px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid #ccd5df;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.choos__slideCard ul {
+  text-align: center;
+}
+
+.choos__slideCard li {
+  font-size: 14px;
+  font-family: "Lato";
+  color: #b5bbc1;
+  text-transform: uppercase;
+  line-height: 2.9;
+  text-align: center;
+}
+
+.choos__slideCard li:first-child {
+  margin-bottom: 29px;
+}
+
+.choos__slideCard li:nth-child(2) {
+  border-bottom: 2px solid #e2e9f0;
+  border-top: 2px solid #e2e9f0;
+  padding: 5px 110px;
+}
+
+.choos__slideCard li:nth-child(3) {
+  border-bottom: 2px solid #e2e9f0;
+  padding: 5px 110px;
+}
+
+.choos__slideCard h3 {
+  font-size: 25px;
+  font-family: "Lato";
+  color: #818b95;
+  text-transform: uppercase;
+  line-height: 0.9;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.choos__slideCard a {
+  text-decoration: none;
+  margin-top: 25px;
+  font-size: 14px;
+  font-family: "Lato";
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #ffbb42;
+  border-radius: 3px;
+  padding: 17px 22px;
+  background-color: #ffbb42;
+}
+
+.choos__slideCard a:hover {
+  cursor: pointer;
+  background-color: #bc8a30;
+  border: 1px solid #bc8a30;
+}
+
+.choos__slideCard_middle {
+  width: 388px;
+  height: 500px;
+  background-color: #709dca;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  border: none;
+}
+
+.choos__slideCard_middle h3 {
+  font-size: 25px;
+  font-family: "Lato";
+  color: white;
+  text-transform: uppercase;
+  line-height: 0.8;
+  text-align: center;
+}
+
+.choos__slideCard_middle li {
+  font-size: 14px;
+  font-family: "Lato";
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 2.963;
+  text-align: center;
+}
+
+.choos__slideCard_middle li:nth-child(2) {
+  border-bottom: 2px solid #8eb8e2;
+  border-top: 2px solid #8eb8e2;
+  padding: 5px 110px;
+}
+
+.choos__slideCard_middle li:nth-child(3) {
+  border-bottom: 2px solid #8eb8e2;
+  padding: 5px 110px;
+}
+
+.choos__slideCard_middle a {
+  margin-top: 25px;
+  font-size: 14px;
+  font-family: "Lato";
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #ffbb42;
+  border-radius: 3px;
+  padding: 17px 22px;
+  background-color: #ffbb42;
+}
+
+.choos__slideCard_middle a:hover {
+  cursor: pointer;
+  background-color: #bc8a30;
+  border: 1px solid #bc8a30;
+}
+
+.choos__slideCard_brL {
+  border-left: none;
+}
+
+.choos__slideCard_brR {
+  border-right: none;
+}
+/*# sourceMappingURL=choos.css.map */

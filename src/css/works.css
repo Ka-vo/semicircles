@@ -1,0 +1,116 @@
+.works__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 155px 0 115px 0;
+}
+
+.works__title {
+  font-size: 30px;
+  font-family: "Lato";
+  color: #394b50;
+  text-transform: uppercase;
+  line-height: 0.733;
+  text-align: center;
+  font-weight: 900;
+}
+
+.works__subtitle {
+  font-size: 15px;
+  font-family: "Lato";
+  color: #394b50;
+  line-height: 0.733;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.works__steps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.works__step {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 250px;
+}
+
+.works__step img {
+  padding-top: 35px;
+}
+
+.works__step p {
+  text-align: center;
+  font-size: 13px;
+  font-family: "OpenSans";
+  color: #7b7b7b;
+  line-height: 1.692;
+  text-align: center;
+}
+
+.works__step h4 {
+  margin: 99px 0 30px 0;
+  font-size: 20px;
+  font-family: "Lato";
+  color: #394b50;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.works__arrowTop img {
+  max-width: 117px;
+  max-height: 48px;
+  padding-bottom: 25px;
+}
+
+.works__arrowBottom img {
+  max-width: 117px;
+  max-height: 48px;
+  padding-top: 115px;
+}
+
+.works__button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 91px 0 150px 0;
+}
+
+.works__button a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Lato";
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #ffbb42;
+  border-radius: 3px;
+  padding: 18px 30px;
+  background-color: #ffbb42;
+  cursor: pointer;
+}
+
+.works__button a:hover {
+  background-color: #b9862c;
+  border: 1px solid #b9862c;
+}
+/*# sourceMappingURL=works.css.map */
