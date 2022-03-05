@@ -1,0 +1,138 @@
+.form {
+  background-color: #709dca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form input {
+  padding-left: 45px;
+  font-size: 15px;
+  font-family: "OpenSans";
+  color: darkgray;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.form__main {
+  margin-top: 110px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.form__main h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Myriad Pro";
+  color: white;
+  text-transform: uppercase;
+  line-height: 0.686;
+  font-weight: 900;
+}
+
+.form__main p {
+  padding: 10px 0 26px 0;
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: white;
+  line-height: 0.686;
+  text-align: center;
+  font-weight: 200;
+}
+
+.form__fields form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 1095px;
+  margin-bottom: 67px;
+}
+
+.form__input {
+  border: none;
+  border-radius: 2px;
+  background-color: white;
+  width: 241px;
+  height: 46px;
+}
+
+.form__input_1 {
+  background-image: url("../images/form/formImg-01.png");
+  background-repeat: no-repeat;
+  background-position: 14px;
+}
+
+.form__input_2 {
+  background-image: url("../images/form/formImg-02.png");
+  background-repeat: no-repeat;
+  background-position: 14px;
+}
+
+.form__input_3 {
+  background-image: url("../images/form/formImg-03.png");
+  background-repeat: no-repeat;
+  background-position: 14px;
+}
+
+.form__input:focus {
+  outline: none;
+  -webkit-box-shadow: 1px 1px 5px #4b4b4b;
+          box-shadow: 1px 1px 5px #4b4b4b;
+}
+
+.form__button {
+  border: 1px solid #ffbb42;
+  border-radius: 2px;
+  background-color: #ffbb42;
+  width: 211px;
+  height: 48px;
+  color: #fff;
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.form__button:hover {
+  cursor: pointer;
+  background-color: #c49034;
+  border: 1px solid #c49034;
+}
+
+.form__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  height: 284px;
+}
+
+.form__imageLapTop {
+  position: absolute;
+}
+
+.form__imageLapTop::after {
+  content: "";
+  border: 3px solid red;
+  border-radius: 50%;
+  height: 4px;
+  width: 4px;
+  margin-bottom: 20px;
+}
+
+.form__imagePeople {
+  position: absolute;
+  z-index: 1;
+  top: 18px;
+}
+/*# sourceMappingURL=from.css.map */

@@ -1,0 +1,90 @@
+.works {
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 155px 0 115px 0;
+  }
+  &__title {
+    font-size: 30px;
+    font-family: "Lato";
+    color: rgb(57, 75, 80);
+    text-transform: uppercase;
+    line-height: 0.733;
+    text-align: center;
+    font-weight: 900;
+  }
+  &__subtitle {
+    font-size: 15px;
+    font-family: "Lato";
+    color: rgb(57, 75, 80);
+    line-height: 0.733;
+    text-align: center;
+    margin-top: 10px;
+  }
+  &__steps {
+    display: flex;
+    // justify-content: space-between;
+  }
+  &__step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    img {
+      padding-top: 35px;
+    }
+    p {
+      text-align: center;
+      font-size: 13px;
+      font-family: "OpenSans";
+      color: rgb(123, 123, 123);
+      line-height: 1.692;
+      text-align: center;
+    }
+    h4 {
+      margin: 99px 0 30px 0;
+      font-size: 20px;
+      font-family: "Lato";
+      color: rgb(57, 75, 80);
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+  &__arrowTop {
+    img {
+      max-width: 117px;
+      max-height: 48px;
+      padding-bottom: 25px;
+    }
+  }
+  &__arrowBottom {
+    img {
+      max-width: 117px;
+      max-height: 48px;
+      padding-top: 115px;
+    }
+  }
+  &__button {
+    display: flex;
+    justify-content: center;
+    margin: 91px 0 150px 0;
+    a {
+      text-decoration: none;
+      font-size: 14px;
+      font-family: "Lato";
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      text-align: center;
+      border: 1px solid #ffbb42;
+      border-radius: 3px;
+      padding: 18px 30px;
+      background-color: #ffbb42;
+      cursor: pointer;
+      &:hover {
+        background-color: #b9862c;
+        border: 1px solid #b9862c;
+      }
+    }
+  }
+}

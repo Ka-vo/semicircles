@@ -1,0 +1,84 @@
+.service {
+  margin-top: 200px;
+}
+
+.service h2 {
+  font-size: 30px;
+  font-family: "Myriad Pro";
+  color: #394b50;
+  text-transform: uppercase;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.service p {
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: #394b50;
+  text-align: center;
+}
+
+.service__benefit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 90px;
+  width: 100%;
+  max-width: 1160px;
+}
+
+.service__columnLeft {
+  width: 50%;
+}
+
+.service__columnRight {
+  width: 50%;
+}
+
+.service__element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 480px;
+  width: 100%;
+}
+
+.service__element:nth-child(2) {
+  margin: 66px 0;
+}
+
+.service__element:nth-child(5) {
+  margin: 66px 0;
+}
+
+.service__element h3 {
+  font-size: 16px;
+  font-family: "Lato";
+  color: #394b50;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.service__element p {
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: #7b7b7b;
+  line-height: 1.7;
+  margin-top: 21px;
+  text-align: left;
+}
+
+.service__text {
+  max-width: 384px;
+  text-align: left;
+}
+/*# sourceMappingURL=service.css.map */

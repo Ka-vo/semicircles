@@ -1,0 +1,70 @@
+.clients {
+  background-color: #ffc155;
+  &__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 141px 0 60px 0;
+  }
+  &__title {
+    font-size: 30px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 0.733;
+    font-weight: 900;
+  }
+  &__subtitle {
+    font-size: 15px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    line-height: 0.733;
+    margin-top: 10px;
+    font-weight: 300;
+  }
+  &__wripper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 500px;
+    padding-bottom: 140px;
+  }
+  &__cards {
+    max-width: 560px;
+    background-color: #fff;
+    border-radius: 2px;
+    margin-bottom: 20px;
+  }
+  &__container {
+    display: flex;
+    padding: 40px 45px 45px 25px;
+  }
+  &__cardText {
+    p {
+      font-size: 12px;
+      font-family: "Myriad Pro";
+      color: rgb(123, 123, 123);
+      line-height: 1.5;
+      font-weight: 500;
+    }
+  }
+  &__pointL {
+    padding-right: 10px;
+  }
+  &__pointR {
+    margin-left: 40px;
+  }
+  &__img {
+    padding-right: 10px;
+  }
+  &__autor {
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: rgb(246, 119, 44);
+    text-transform: uppercase;
+  }
+  span {
+    color: #a7b4b9;
+  }
+}

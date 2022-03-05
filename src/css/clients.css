@@ -1,0 +1,96 @@
+.clients {
+  background-color: #ffc155;
+}
+
+.clients__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 141px 0 60px 0;
+}
+
+.clients__title {
+  font-size: 30px;
+  font-family: "Lato";
+  color: white;
+  text-transform: uppercase;
+  line-height: 0.733;
+  font-weight: 900;
+}
+
+.clients__subtitle {
+  font-size: 15px;
+  font-family: "Lato";
+  color: white;
+  line-height: 0.733;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+.clients__wripper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-height: 500px;
+  padding-bottom: 140px;
+}
+
+.clients__cards {
+  max-width: 560px;
+  background-color: #fff;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
+.clients__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 45px 45px 25px;
+}
+
+.clients__cardText p {
+  font-size: 12px;
+  font-family: "Myriad Pro";
+  color: #7b7b7b;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.clients__pointL {
+  padding-right: 10px;
+}
+
+.clients__pointR {
+  margin-left: 40px;
+}
+
+.clients__img {
+  padding-right: 10px;
+}
+
+.clients__autor {
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: #f6772c;
+  text-transform: uppercase;
+}
+
+.clients span {
+  color: #a7b4b9;
+}
+/*# sourceMappingURL=clients.css.map */

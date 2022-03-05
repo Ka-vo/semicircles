@@ -1,0 +1,26 @@
+@import "./fonts.scss";
+@import "./var.scss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  a {
+    text-decoration: none;
+  }
+}
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+@import "./header.scss";
+@import "./from.scss";
+@import "./service.scss";
+@import "./about.scss";
+@import "./choos.scss";
+@import "./works.scss";
+@import "./clients.scss";
+@import "./newsLetter.scss";
